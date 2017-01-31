@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Medium Hash Cleaner
 // @namespace    https://blog.gslin.org/medium-hash-cleaner/
-// @version      0.2
+// @version      0.3
 // @description  Medium hash cleaner
 // @author       Gea-Suan Lin
 // @match        *://*/*
 // @grant        none
 // @run-at       document-end
+// @updateURL    https://openuserjs.org/meta/gslin/Medium_Hash_Cleaner.meta.js
 // ==/UserScript==
 
 (function() {
