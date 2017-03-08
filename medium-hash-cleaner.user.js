@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Medium Hash Cleaner
 // @namespace    https://blog.gslin.org/medium-hash-cleaner/
-// @version      0.3
+// @version      0.4
 // @description  Medium hash cleaner
 // @author       Gea-Suan Lin
 // @match        *://*/*
