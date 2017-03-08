@@ -27,8 +27,9 @@
     if (mediumSite) {
         window.history.replaceState = function(){};
 
-        if ('' !== window.location.hash) {
-            window.location = '';
+        var l = window.location;
+        if ('' !== l.search || '' !== l.hash) {
+            l.replace(l.protocol + '//' + l.hostname + l.pathname);
         }
     }
 })();
